@@ -8,12 +8,12 @@
 4.  [How to Run](#how-to-run)
 
 
-## Overview
+## 1. Overview
 
 This project utilizes an Arduino board programmed in C++ (via Arduino IDE). To check a user's reaction speed this project uses 4 LEDs that will light up 3 seconds after user pressed the start button. To successfully test the reaction, user needs to press the button next to the corresponding LED (that lit up) within 3 seconds to pass the test. Results and real-time guidance are displayed on an LCD screen. To run the test again, simply press the start button after the current round finishes.
 
 
-## Hardware Components
+## 2. Hardware Components
 
 | Component | Quantity | Comments |
 | ---- | ----- | ----- |
@@ -30,7 +30,7 @@ This project utilizes an Arduino board programmed in C++ (via Arduino IDE). To c
 | Jumper wires | - | - |
 
 
-## Pin Mapping
+## 3. Pin Mapping
 
 The LCD pins are listed in physical order (from left to right on the display module). 
 
@@ -67,7 +67,7 @@ Since all digital pins were in use, three of the LEDs were connected to analog i
 Note: Remember to connect power (5V and GND) to the outer pins of the potentiometer so that it functions properly as a voltage divider for the LCD contrast.
 
 
-## How to Run
+## 4. How to Run
 
 ### Step 1
 
